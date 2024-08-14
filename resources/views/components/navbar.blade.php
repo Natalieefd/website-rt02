@@ -1,18 +1,18 @@
-<section class="bg-secondary mx-14 w-auto shadow-xl">
+<section class="bg-secondary w-auto shadow-xl">
     <div class="flex justify-around items-center py-1 uppercase font-bold text-sm text-primary font-opensans">
         <a href="{{ route('home') }}">
             <p>home</p>
         </a>
-        <a href="{{ route('components.profile') }}">
-            <p>profile rt</p>
-        </a>
         <a href="{{ route('components.kepengurusan') }}">
             <p>struktur kepengurusan</p>
         </a>
-        <a href="
-        {{-- {{ route('components.keigatan') }} --}}
-        ">
+        <a href="{{ route('components.kegiatan') }}">
             <p>kegiatan</p>
+        </a>
+        <a href="
+        {{ route('components.penduduk') }}
+        ">
+            <p>penduduk</p>
         </a>
         <a href="{{ route('components.infokkn') }}">
             <p>kkn unmul</p>

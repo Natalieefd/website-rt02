@@ -6,6 +6,7 @@ export default {
     "./resources/**/*.blade.php",
     "./resources/**/*.js",
     "./resources/**/*.vue",
+    './src/**/*.html', './node_modules/flowbite/**/*.js',
   ],
   theme: {
     extend: {
@@ -35,6 +36,8 @@ export default {
         'grey':"#F7F9FF",
         'red':"#CD3131",
         'green':"#34BE82",
+        'yellow-1':"#FFDF00",
+        'yellow-2':"#FFF700",
     },
     fontFamily: {
         poppins:['Poppins'],
@@ -42,6 +45,9 @@ export default {
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')({
+        charts: true,
+    }),],
 }
 

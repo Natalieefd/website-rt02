@@ -1,3 +1,8 @@
+@extends('layouts.global')
+
+@section('content')
+@include('components.header')
+@include('components.navbar')
 <div class="flex gap-10 bg-grey text-primary pb-20 px-20 shadow-md">
     <div class="flex flex-col justify-center">
         <p class="text-4xl font-poppins font-semibold uppercase text-center pb-10">visi dan misi</p>
@@ -71,3 +76,6 @@
         </div>
     </div>
 </div>
+
+@include('components.footer')
+@endsection
